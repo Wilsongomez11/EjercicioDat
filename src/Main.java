@@ -7,7 +7,7 @@ public class Main {
 
         Scanner teclado = new Scanner(System.in);
 
-        double numero1, numero2, suma, resta, multi, raiz1, raiz2;
+        double numero1, numero2, suma, resta, multi;
 
         System.out.println("INGRESE EL PRIMER VALOR");
         numero1  = teclado.nextDouble();
@@ -21,13 +21,10 @@ public class Main {
 
         multi=numero1 * numero2;
 
-        raiz1 = Math.sqrt(numero1);
-        raiz2 = Math.sqrt(numero2);
 
         System.out.println("LA SUMA ES:" + suma) ;
         System.out.println("LA RESTA ES:" + resta);
         System.out.println("LA MULTIPLICACION ES:" + multi);
-        System.out.println("LA RAIZ ES" + raiz1);
-        System.out.println("LA RAIZ ES" + raiz2);
+
     }
 }
